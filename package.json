@@ -1,0 +1,22 @@
+{
+  "name": "vuanhlk12-light-theme",
+  "displayName": "vuanhlk12 light theme",
+  "description": "vuanhlk12 light theme",
+  "publisher": "vuanhlk12",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vuanhlk12",
+        "uiTheme": "vs",
+        "path": "./themes/vuanhlk12-color-theme.json"
+      }
+    ]
+  }
+}
