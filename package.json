@@ -3,7 +3,7 @@
   "displayName": "vuanhlk12 light theme",
   "description": "vuanhlk12 light theme",
   "publisher": "vuanhlk12",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -13,7 +13,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "vuanhlk12",
+        "label": "Vũ Anh - Light",
         "uiTheme": "vs",
         "path": "./themes/vuanhlk12-color-theme.json"
       }
