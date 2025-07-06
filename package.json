@@ -3,7 +3,7 @@
   "displayName": "vuanhlk12 light theme",
   "description": "vuanhlk12 light theme",
   "publisher": "vuanhlk12",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -18,5 +18,10 @@
         "path": "./themes/vuanhlk12-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish",
+    "bp": "npm run build && npm run publish"
   }
 }
